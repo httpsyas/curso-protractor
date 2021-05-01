@@ -1,0 +1,10 @@
+
+> curso-yas-protractor@1.0.0 test /home/yasmim_kalfeltz/curso-protractor
+> npm run test:chrome && npm run test:firefox
+
+
+> curso-yas-protractor@1.0.0 test:chrome /home/yasmim_kalfeltz/curso-protractor
+> protractor configurations/chromeConfig.js
+
+[01:21:24] I/launcher - Running 1 instances of WebDriver
+[01:21:24] I/local - Starting selenium standalone server...

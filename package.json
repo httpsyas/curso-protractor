@@ -2,7 +2,6 @@
   "name": "curso-yas-protractor",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "lint": "npx standard",
     "lint:fix": "npx standard --fix",
@@ -24,9 +23,13 @@
       "it"
     ]
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "protractor",
+    "testing",
+    "e2e"
+  ],
+  "author": "Yasmim Vilen",
+  "license": "MIT",
   "devDependencies": {
     "faker": "^5.5.3",
     "protractor": "^7.0.0",
