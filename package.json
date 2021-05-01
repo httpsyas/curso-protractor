@@ -1,0 +1,36 @@
+{
+  "name": "curso-yas-protractor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx standard",
+    "lint:fix": "npx standard --fix",
+    "pretest:github": "webdriver-manager update --versions.chrome 81.0.4044.138",
+    "pretest:local": "webdriver-manager update",
+    "test": "npm run test:chrome && npm run test:firefox",
+    "test:chrome": "protractor configurations/chromeConfig.js",
+    "test:firefox": "protractor configurations/firefoxConfig.js"
+  },
+  "standard": {
+    "globals": [
+      "beforeAll",
+      "beforeEach",
+      "browser",
+      "by",
+      "describe",
+      "element",
+      "expect",
+      "it"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "faker": "^5.5.3",
+    "protractor": "^7.0.0",
+    "protractor-helper": "^4.2.1",
+    "standardjs": "^1.0.0-alpha"
+  }
+}
